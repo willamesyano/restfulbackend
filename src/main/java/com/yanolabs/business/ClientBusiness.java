@@ -21,12 +21,12 @@ public class ClientBusiness {
         clientDao.deleteClient(id);
     }
 
-    public List<ClientBeans> listarTodos()throws Exception{
-        return clientDao.listarTodos();
+    public List<ClientBeans> listAll()throws Exception{
+        return clientDao.listAll();
     }
 
     public List<ClientBeans> listById(int id) throws Exception{
-        return clientDao.listById(id);
+        return clientDao.findById(id);
     }
 
 }

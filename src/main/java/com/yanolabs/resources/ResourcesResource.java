@@ -10,7 +10,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.net.URI;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by willames on 03/11/16.
@@ -75,7 +74,7 @@ public class ResourcesResource {
         ResourcesBeans rb = resourcesBusiness.findById(id);
         if(rb != null){
             resourcesBusiness.deleteResource(rb);
-           return Response.status(Response.Status.NO_CONTENT).build();
+            return Response.status(Response.Status.NO_CONTENT).build();
         }
         return Response.status(Response.Status.BAD_REQUEST).build();
     }
