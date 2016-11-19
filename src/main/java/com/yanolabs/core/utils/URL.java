@@ -7,5 +7,5 @@ public class URL {
 
     public static final String RESOURCE_PATH = "/resources";
     public static final String LOGIN_PATH = "/login";
-
+    public static final String CLIENT_PATH = "/clients";
 }

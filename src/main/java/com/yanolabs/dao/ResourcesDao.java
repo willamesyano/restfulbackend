@@ -38,7 +38,7 @@ public class ResourcesDao{
         em.close();
     }
 
-    public List listarTodos() {
+    public List listAll() {
         TypedQuery<ResourcesBeans> query = em.createQuery("from ResourcesBeans order by codigoResource", ResourcesBeans.class);
         return query.getResultList();
     }
