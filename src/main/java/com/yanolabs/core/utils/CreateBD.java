@@ -1,5 +1,6 @@
 package com.yanolabs.core.utils;
 
+import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 /**
@@ -8,6 +9,7 @@ import javax.persistence.Persistence;
 public class CreateBD {
 
     public static void main(String[] args) {
-        Persistence.createEntityManagerFactory("backend_db");
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("backend_db");
+        factory.close();
     }
 }

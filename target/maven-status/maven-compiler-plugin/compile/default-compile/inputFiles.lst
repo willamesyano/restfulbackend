@@ -1,0 +1,15 @@
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/business/ResourcesBusiness.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/entity/ClientBeans.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/entity/ResourcesBeans.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/core/utils/entity/ExecutionResult.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/resources/ClientResource.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/dao/ResourcesDao.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/resources/LoginResource.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/resources/ResourcesResource.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/business/ClientBusiness.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/dao/ClientDao.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/dao/FactoryDao.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/core/utils/URL.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/business/LoginBusiness.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/core/utils/CreateBD.java
+/Users/willamesyano/Dropbox/Development/workspaceJava/restfulbackend/src/main/java/com/yanolabs/dao/factory/JpaUtil.java
