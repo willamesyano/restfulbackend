@@ -1,29 +1,14 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### What is this app for? ###
+
+* This is a very simple RESTful backend application using Jersey, Hibernate and PostgreSQL.
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* To run this app first clone the project to your machine and import in your IDE.
+* Dependencies: Update the project to download all maven dependencies.
+* Database configuration: Create a new database and set it up in persistence.xml. Go to com.yanolabs.core.utils and run CreateDB. 
+* Deployment instructions: Start up the project using tomcat8(8.5.6)
