@@ -49,7 +49,7 @@ public class ClientDao {
         return query.getResultList();
     }
 
-    public ClientBeans listByUsername(String username) {
+    public ClientBeans findByUsername(String username) {
         String consulta = "from ClientBeans where username = '" + username + "'";
         TypedQuery<ClientBeans> query = em.createQuery(consulta , ClientBeans.class);
         return query.getSingleResult();

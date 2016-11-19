@@ -31,9 +31,8 @@ public class ResourcesDao{
         em.close();
     }
 
-    public void deleteResource(int id){
+    public void deleteResource(ResourcesBeans rb){
         trx.begin();
-        ResourcesBeans rb = em.find(ResourcesBeans.class, id);
         em.remove(rb);
         trx.commit();
         em.close();
@@ -44,9 +43,9 @@ public class ResourcesDao{
         return query.getResultList();
     }
 
-    public List listById(int id) {
-        TypedQuery<ResourcesBeans> query = em.createQuery("from ResourcesBeans where codigoResource = id", ResourcesBeans.class);
-        return query.getResultList();
+    public ResourcesBeans findById(int id) {
+        ResourcesBeans rb = em.find(ResourcesBeans.class, id);
+        return rb;
     }
 
 }

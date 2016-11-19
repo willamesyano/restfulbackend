@@ -12,14 +12,14 @@ public class LoginBusiness {
     ClientBeans clientBeans = new ClientBeans();
     ArrayList<ClientBeans> clientList = new ArrayList<ClientBeans>();
 
-    public ClientBeans listByUsername(String username) throws Exception{
-        return clientDao.listByUsername(username);
+    public ClientBeans findByUsername(String username) throws Exception{
+        return clientDao.findByUsername(username);
     }
 
     public ClientBeans authenticate(String username, String password) throws Exception {
 
         try {
-            clientBeans = listByUsername(username);
+            clientBeans = findByUsername(username);
             if (clientBeans.getUsername().equals(username) && clientBeans.getPassword().equals(password)) {
 
                 clientBeans.setLogged(true);
