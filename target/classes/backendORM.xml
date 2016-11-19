@@ -8,7 +8,5 @@
 
     <entity class="com.yanolabs.entity.ResourcesBeans"/>
     <entity class="com.yanolabs.entity.ClientBeans"/>
-    <entity class="com.yanolabs.entity.CidadesBeans"/>
-    <entity class="com.yanolabs.entity.UFsBeans"/>
 
 </entity-mappings>
