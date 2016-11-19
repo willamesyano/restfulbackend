@@ -39,12 +39,12 @@ public class ClientDao {
         em.close();
     }
 
-    public List listarTodos() {
+    public List listAll() {
         TypedQuery<ClientBeans> query = em.createQuery("from ClientBeans order by codigoClient", ClientBeans.class);
         return query.getResultList();
     }
 
-    public List listById(int id) {
+    public List findById(int id) {
         TypedQuery<ClientBeans> query = em.createQuery("from ClientBeans where codigoClient = id", ClientBeans.class);
         return query.getResultList();
     }
@@ -55,4 +55,12 @@ public class ClientDao {
         return query.getSingleResult();
     }
 
+    public ClientBeans logout(ClientBeans cb){
+        trx.begin();
+        em.merge(cb);
+        cb = findByUsername(cb.getUsername());
+        trx.commit();
+        em.close();
+        return cb;
+    }
 }

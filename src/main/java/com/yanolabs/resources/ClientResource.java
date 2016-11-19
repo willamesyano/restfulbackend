@@ -21,7 +21,7 @@ public class ClientResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<ClientBeans> getClients() throws Exception {
-        clientsMap.addAll(clientBusiness.listarTodos());
+        clientsMap.addAll(clientBusiness.listAll());
         return clientsMap;
     }
 

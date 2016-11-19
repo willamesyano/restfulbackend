@@ -8,8 +8,6 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by willames on 03/11/16.
@@ -28,11 +26,22 @@ public class LoginResource {
         if((!username.isEmpty() || username != null) || (!password.isEmpty() || password != null ) ){
             ClientBeans cb = loginBusiness.authenticate(username, password);
             if (cb!= null){
-               return Response.ok(cb).build();
+                return Response.ok(cb).build();
             }
-                return Response.status(Response.Status.UNAUTHORIZED).build();
+            return Response.status(Response.Status.UNAUTHORIZED).build();
         }
+        return Response.status(Response.Status.BAD_REQUEST).build();
+    }
 
-            return Response.status(Response.Status.BAD_REQUEST).build();
+    @PUT
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response logout(ClientBeans clientBeans) throws Exception {
+
+        if( clientBeans != null ){
+            ClientBeans cb = loginBusiness.logout(clientBeans);
+            return Response.ok(cb).build();
+        }
+        return Response.status(Response.Status.BAD_REQUEST).build();
     }
 }
