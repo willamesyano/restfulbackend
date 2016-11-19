@@ -16,7 +16,7 @@ public class MainJpa {
         ResourcesDao resourcesDao = new ResourcesDao();
         ArrayList<ResourcesBeans> resourceBeans = new ArrayList<ResourcesBeans>();
 
-        resourceBeans.addAll(resourcesDao.listarTodos());
+        resourceBeans.addAll(resourcesDao.listAll());
         System.out.println(resourceBeans.toString());
     }
 }

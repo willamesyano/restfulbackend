@@ -2,6 +2,7 @@ package com.yanolabs.dao;
 
 import com.yanolabs.dao.factory.JpaUtil;
 import com.yanolabs.entity.ClientBeans;
+import com.yanolabs.entity.ResourcesBeans;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
@@ -17,9 +18,9 @@ public class ClientDao {
     private EntityManager em = JpaUtil.getEntityManager();
     private EntityTransaction trx = em.getTransaction();
 
-    public void addClient(ClientBeans clientsBeans){
+    public void addClient(ClientBeans cb){
         trx.begin();
-        em.persist(clientsBeans);
+        em.persist(cb);
         trx.commit();
         em.close();
     }
@@ -31,9 +32,8 @@ public class ClientDao {
         em.close();
     }
 
-    public void deleteClient(int id){
+    public void deleteClient(ClientBeans cb){
         trx.begin();
-        ClientBeans cb = em.find(ClientBeans.class, id);
         em.remove(cb);
         trx.commit();
         em.close();
@@ -41,11 +41,6 @@ public class ClientDao {
 
     public List listAll() {
         TypedQuery<ClientBeans> query = em.createQuery("from ClientBeans order by codigoClient", ClientBeans.class);
-        return query.getResultList();
-    }
-
-    public List findById(int id) {
-        TypedQuery<ClientBeans> query = em.createQuery("from ClientBeans where codigoClient = id", ClientBeans.class);
         return query.getResultList();
     }
 
@@ -61,6 +56,11 @@ public class ClientDao {
         cb = findByUsername(cb.getUsername());
         trx.commit();
         em.close();
+        return cb;
+    }
+
+    public ClientBeans findById(int id) {
+        ClientBeans cb = em.find(ClientBeans.class, id);
         return cb;
     }
 }

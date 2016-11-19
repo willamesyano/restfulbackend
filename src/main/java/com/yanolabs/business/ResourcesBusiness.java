@@ -24,8 +24,8 @@ public class ResourcesBusiness {
         resourcesDao.deleteResource(rb);
     }
 
-    public List<ResourcesBeans> listarTodos()throws Exception{
-        return resourcesDao.listarTodos();
+    public List<ResourcesBeans> listAll()throws Exception{
+        return resourcesDao.listAll();
     }
 
     public ResourcesBeans findById(int id) throws Exception{

@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dff3e4c-27e7-4aaa-9c28-ff91e7aa9235" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yanolabs/business/ClientBusiness.class" afterPath="$PROJECT_DIR$/target/classes/com/yanolabs/business/ClientBusiness.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yanolabs/business/LoginBusiness.class" afterPath="$PROJECT_DIR$/target/classes/com/yanolabs/business/LoginBusiness.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yanolabs/core/utils/URL.class" afterPath="$PROJECT_DIR$/target/classes/com/yanolabs/core/utils/URL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yanolabs/dao/ClientDao.class" afterPath="$PROJECT_DIR$/target/classes/com/yanolabs/dao/ClientDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yanolabs/resources/ClientResource.class" afterPath="$PROJECT_DIR$/target/classes/com/yanolabs/resources/ClientResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/yanolabs/resources/LoginResource.class" afterPath="$PROJECT_DIR$/target/classes/com/yanolabs/resources/LoginResource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/business/LoginBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/business/LoginBusiness.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResourcesBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResourcesBusiness.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/URL.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/URL.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ClientDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ClientDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ResourcesDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ResourcesDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/MainJpa.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/MainJpa.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ClientResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ClientResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/LoginResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/LoginResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ResourcesResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ResourcesResource.java" />
     </list>
     <ignored path="RESTfulBackend.iws" />
@@ -44,7 +40,45 @@
     <favorites_list name="RESTfulBackend" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ClientResource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ClientResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-77">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#609#622#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientBusiness.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ClientDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,22 +133,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResoursesBusiness.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/DaoFactoryProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/MainJpa.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/entity/ClientBeans.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/CreateBD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/entity/URLs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/URLs.java" />
         <option value="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar!/javax/ws/rs/core/Response.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResourcesBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/LoginDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/LoginResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/LoginBusiness.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/URL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResourcesBusiness.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ResourcesDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ClientResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/LoginDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/LoginResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/MainJpa.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ResourcesResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/LoginBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ClientDao.java" />
       </list>
     </option>
@@ -347,7 +381,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="business" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -960,12 +994,12 @@
       <workItem from="1478722923492" duration="9308000" />
       <workItem from="1478919278586" duration="24589000" />
       <workItem from="1479075064675" duration="599000" />
-      <workItem from="1479491928817" duration="15714000" />
+      <workItem from="1479491928817" duration="18122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73693000" />
+    <option name="totallyTimeSpent" value="76101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +1012,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1002,7 +1036,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20895523" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23680556" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23680556" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1029,7 +1063,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="87" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1038,13 +1072,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/entity/CidadesBeans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/CidadesBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1113,16 +1140,6 @@
         <state relative-caret-position="-84">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/MainJpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#459#475#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,37 +1276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResourcesBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#673#674#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ResourcesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="47" column="18" selection-start-line="46" selection-start-column="8" selection-end-line="47" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1302,45 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ClientResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ResourcesResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#512#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/LoginResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/LoginBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1349,11 +1300,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/LoginResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/core/utils/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/ResourcesBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ResourcesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/dao/factory/MainJpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ResourcesResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/dao/ClientDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/business/ClientBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yanolabs/resources/ClientResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#609#622#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

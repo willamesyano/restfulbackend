@@ -25,7 +25,7 @@ public class ResourcesResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getResources() throws Exception {
-        resourcesList.addAll(resourcesBusiness.listarTodos());
+        resourcesList.addAll(resourcesBusiness.listAll());
         entity  = new GenericEntity< ArrayList<ResourcesBeans> >( resourcesList ){ };
         return Response.ok(entity).build();
     }
